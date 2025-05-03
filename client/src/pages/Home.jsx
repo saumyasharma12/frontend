@@ -9,11 +9,6 @@ import { Helmet } from 'react-helmet'
 const Home = () => {
   return (
     <div>
-    <Helmet>
-        <title>Product Home </title>
-        <meta name="description" content="Welcome to store. Explore top products, categories, and deals!" />
-        <meta name="keywords" content=" e-commerce, shop online" />
-    </Helmet>
       <Navbar/>
       <Header/>
       <SortSection/>
