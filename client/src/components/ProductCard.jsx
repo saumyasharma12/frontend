@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Heart } from "lucide-react";
-import AuthModal from "./Authmodal";
+
 
 const ProductCard = ({ product }) => {
   const [isLiked, setIsLiked] = useState(false);
@@ -49,8 +49,6 @@ const ProductCard = ({ product }) => {
           or Create an account to see pricing
         </p>
       </div>
-
-      <AuthModal show={showModal} onClose={() => setShowModal(false)} />
     </>
   );
 };
